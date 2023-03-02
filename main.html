@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Portfolio</title>
+</head>
+<body>
+	<div class="wrapper">
+
+	<header>
+		<div class="header__text">
+			<ul>
+			<li><button onclick="scrollToSection('experience')">Experience</button></li>
+			<li><button onclick="scrollToSection('projects')">Projects</button></li>
+			<li><button onclick="scrollToSection('contacts')">Contacts</button></li>
+			</ul>
+		</div>
+	</header>
+	<section class="welcome">
+		<div class="welcome__text">
+			<div class="hello">Hello!</div>
+			<div class="name">I am Habib,</div>
+			<h1 class="job">full-stack developer</h1>
+		</div>
+		<div class="welcome__banner">
+			<img src="img/banner.png" alt="">
+		</div>
+	</section>
+	<section class="experience" id="experience">
+		<div class="experience__text title">Experience</div>
+		<div class="experience__companies">
+			<div class="experience__companies-company">
+				<img src="img/company1.png" alt="">
+			</div>
+			<div class="experience__companies-company">
+				<img src="img/company2.png" alt="">
+			</div>
+		</div>
+	</section>
+	<section class="projects" id="projects">
+		<div class="projects__title title">My Projects</div>
+			<div class="project">
+				<div class="project__img">
+					<img src="img/project1.png" alt="">
+				</div>
+				<div class="project__content content1">
+					<div class="project__content-title">Personal Account Of University</div>
+					<div class="project__content-text">I participated in creating a large website for my university. My job there was to write Back-end on Django </div>
+					<a class="project__content-view" href="https://e.mospolytech.ru/#/home">
+						<span>View Project</span> <img class="arrow" src="img/arrow.svg" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="project">
+
+				<div class="project__content content2">
+					<div class="project__content-title">E-commerce Website</div>
+					<div class="project__content-text">Customer Required for the website with admin set up and ability to effectively make migrations to database - here it is. This online shop was also written on Django</div>
+					
+				</div>
+				<div class="project__img project2__img">
+					<img src="img/project2_1.png" alt="" class="img1">
+					<img src="img/project2_2.png" alt="" class="img2">
+				</div>
+			</div>
+			<div class="project">
+				<div class="project__img">
+					<img src="img/project3.png" alt="">
+				</div>
+				<div class="project__content content1">
+					<div class="project__content-title title3">Bot for Trading. Binance API</div>
+					<div class="project__content-text text3">This bot is my Pet-project. I made it for myself, and found a lot of new experience because of that. This was my first time of creating bots and using API, and then i continued learning this instruments</div>
+					
+				</div>
+			</div>
+			</section> 
+	<section class="contacts" id="contacts">
+		<div class="contacts__title">Find me there!</div>
+		<ul>
+			<li><a href="https://wa.me/79361217649"><img src="img/whatsapp.png" alt=""></a></li>
+			<li><a href="https://t.me/ararosss"><img src="img/telegram.png" alt=""></a></li>
+			<li><a href="https://github.com/hmakhsudov"><img src="img/github.png" alt=""></a></li>
+		</ul>
+		<div class="contacts__text">Interested to hire me? You can also write to my gmail!</div>
+		<div class="gmail">mahsudovhabibullo01@gmail.com</div>
+	</section>
+
+	</div>
+	<script>
+		function scrollToSection(sectionId) {
+			const section = document.getElementById(sectionId);
+			section.scrollIntoView({ behavior: "smooth" });
+		  }
+		  
+		  
+	</script>
+</body>
+</html>

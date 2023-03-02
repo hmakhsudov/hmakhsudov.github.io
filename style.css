@@ -1,0 +1,285 @@
+html{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), #1C1E22;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%),
+linear-gradient(0deg, #1C1E22, #1C1E22);
+
+}
+
+ul{
+	list-style: none;
+	
+}
+
+
+a{
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+
+}
+button{
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	background-color: transparent;
+	border: none;
+	font-size: 20px;
+}
+
+.wrapper{
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+header{
+	margin-top: 60px;
+	margin-bottom: 180px;
+	font-size: 20px;
+
+}
+
+.header__text > ul {
+	display: flex;
+}
+.header__text li {
+	display: inline-block;
+	margin-right: 22px;
+} 
+
+.welcome{
+	display: flex;
+	position: relative;
+	margin-bottom: 250px;
+}
+
+.welcome__text{
+}
+.hello{
+	font-size: 60px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: #0EE6B7;
+	margin-bottom: 70px;
+	margin-top: 20px;
+
+
+}
+.name{
+	font-size: 60px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 80px;
+}
+
+.job{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	color: #0EE6B7;
+	margin-bottom: 37px;
+	font-size: 68px;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 1px;
+	width: 100%;
+	display: inline-block;
+	position: absolute;
+	z-index: 2;
+}
+
+.welcome__banner img{
+	width: 780px;
+	height: 420px;
+}
+
+.welcome__banner{
+	position: absolute;
+	right: 0;
+	top: -20px;
+
+}
+
+.experience__text{
+	margin-bottom: 67px;
+}
+
+.title{
+	font-size: 36px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+
+}
+
+.experience__companies{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 200px;
+}
+
+.projects__title{
+	margin-bottom: 67px;
+
+}
+
+.project{
+	display: flex;
+	margin-bottom: 130px;
+}
+
+.project__content{
+	width: 50%;
+}
+
+.project__content-title{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	margin-bottom: 60px;
+	margin-top: 50px;
+
+}
+
+.project__content-text{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.project__content-view{
+	margin-top: 70px;
+	font-family: 'Poppins', sans-serif;
+	color: #0EE6B7;
+	font-weight: 700;
+	position: relative;
+
+}
+
+.project__content-view img{
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	margin-left: 50px;
+}
+
+.content2{
+	margin-right: 50px;
+}
+.content1{
+	margin-left: 50px;
+}
+
+.title3{
+	margin-top: 150px;
+}
+
+.text3{
+	margin-top: 70px;
+}
+
+.project2__img{
+	display: flex;
+	position: relative;
+
+}
+
+.img1{
+	position: absolute;
+	z-index: 3;
+	left: 50px;
+	top: 20px;
+}
+.img2{
+	position: absolute;
+	top: 120px;
+	left: 210px;
+
+}
+
+.content2{
+	width: 45%;
+	margin-bottom: 200px;
+}
+
+.contacts{
+	text-align: center;
+}
+
+.contacts__title{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+}
+
+.contacts ul{
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	width: 340px;
+	margin-bottom: 70px;
+}
+
+.contacts img{
+	text-align: center;
+	width: 60px;
+	height: 60px;
+	margin-top: 10px;
+
+}
+
+.contacts li{
+	width: 80px;
+	height: 80px;
+	border-radius: 10px;
+	background-color: rgba(242, 242, 231, 1)
+
+}
+
+.contacts__text{
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 38px;
+	margin-bottom: 60px;
+	
+}
+
+.gmail{
+	color: #0EE6B7;
+	font-family: 'Poppins', sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	margin-bottom: 100px;
+}
+
+
+@media (max-width: 1550px) {
+	.wrapper{
+		max-width: 1220px;
+
+	}
+	.welcome__banner img{
+		width: 650px;
+		height: 370px;
+	}
+	.hello{
+		font-size: 50px;
+
+	}
+	.name{
+		font-size: 50px;
+	}
+	.job{
+		font-size: 60px;
+	}
+	.project__content-view{
+		top: 50px;
+	}
+}
